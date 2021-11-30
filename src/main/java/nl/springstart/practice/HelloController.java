@@ -13,6 +13,6 @@ public class HelloController {
 
     @GetMapping("/person/get")
     public Person getPerson() {
-        return new Person("Alex", "van Manen");
+        return new Person(1L, "Alex", "van Manen");
     }
 }

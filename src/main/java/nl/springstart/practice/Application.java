@@ -26,8 +26,6 @@ public class Application {
 			for (String beanName : beanNames) {
 				System.out.println(beanName);
 			}
-			Person person = new Person("Alex", "van Manen");
-			System.out.println(person);
 		};
 	}
 
