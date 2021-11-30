@@ -11,4 +11,15 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
+	@GetMapping("/person/get")
+	public Person getPerson() {
+//		Person person = new Person();
+//		person.setFirstName("Alex");
+//		person.setLastName("van Manen");
+//		Person person = new Person("Henk", "de Tester");
+
+		return new Person("Henk", "de Tester");
+	}
+
+
 }
